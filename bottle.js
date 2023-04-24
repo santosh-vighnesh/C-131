@@ -5,7 +5,7 @@ objects = [];
 status = "";
 
 function preload(){
-  img = loadImage('waterbottle.jpg');
+  img = loadImage('waterbottle.jpeg');
 }
 
 

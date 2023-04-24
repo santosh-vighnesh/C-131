@@ -1,4 +1,4 @@
-  objectDetector= "";
+objectDetector= "";
 
 img = "";
 objects = [];
@@ -54,5 +54,3 @@ function draw()
     }
   }
 }
-
-

@@ -44,8 +44,6 @@ function draw()
     objectDetector.detect(img,gotResult);
     for (i = 0; i < objects.length; i++) 
     {
-
-  
       document.getElementById("status").innerHTML = "Status : Objects Detected";
       fill(r, g, b);
       percent = floor(objects[i].confidence * 100);
